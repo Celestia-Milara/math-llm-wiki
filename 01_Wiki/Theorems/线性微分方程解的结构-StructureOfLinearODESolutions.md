@@ -1,0 +1,48 @@
+---
+title: 线性微分方程解的结构
+tags: [数学, 第15讲, 定理]
+created: 2026-05-03
+type: permanent
+status: raw_compilation
+summary: 齐次线性微分方程的解构成线性空间，非齐次方程的通解等于齐次通解加上一个特解。
+source: 00_Raw/15_第15讲_微分方程.md
+---
+
+> [!WARNING] AI Generated
+> 以下内容为 AI 从原始笔记编译，尚未经用户验证。
+
+## 齐次线性微分方程解的结构
+
+若 $y_1(x), y_2(x)$ 是 $y'' + py' + qy = 0$ 的两个解，且 $\dfrac{y_1(x)}{y_2(x)} \neq \text{常数}$（即线性无关），则
+
+$$y(x) = C_1 y_1(x) + C_2 y_2(x)$$
+
+是方程 $y'' + py' + qy = 0$ 的**通解**。
+
+## 非齐次线性微分方程解的结构
+
+若 $\bar{y}(x) = C_1 y_1(x) + C_2 y_2(x)$ 是齐次方程的通解，$y^*(x)$ 是非齐次方程的一个特解，则
+
+$$y(x) = \bar{y}(x) + y^*(x)$$
+
+是 $y'' + py' + qy = f(x)$ 的**通解**。
+
+## 叠加原理
+
+1. 若 $y_1^*$ 是 $y'' + py' + qy = f_1(x)$ 的解，$y_2^*$ 是 $y'' + py' + qy = f_2(x)$ 的解，则 $y_1^* + y_2^*$ 是 $y'' + py' + qy = f_1(x) + f_2(x)$ 的解。
+
+2. 若 $y_1^*, y_2^*$ 都是 $y'' + py' + qy = f(x)$ 的特解，则 $y_1^* - y_2^*$ 是对应齐次方程的解。
+
+## 相关页面
+
+- [[LinearDifferentialEquation|线性微分方程]]
+- [[ConstantCoefficientODE|常系数线性微分方程求解]]
+
+---
+
+```dataview
+TABLE title, type, summary
+FROM "01_Wiki"
+WHERE contains(tags, this.file.tags[1]) OR contains(tags, "线性微分方程")
+SORT type ASC
+```

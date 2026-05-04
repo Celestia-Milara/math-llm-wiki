@@ -1,0 +1,50 @@
+---
+title: 连续与间断
+tags: [数学, 第1讲, 概念]
+created: 2026-05-03
+type: permanent
+status: raw_compilation
+summary: 连续是极限值等于函数值的性质，间断点分为第一类和第二类。
+source: 00_Raw/01_第1讲_函数极限与连续.md
+---
+
+> [!WARNING] AI Generated
+> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 status 改为 practice_verified。
+
+## 连续的定义
+
+设 $f(x)$ 在点 $x_0$ 的某邻域内有定义，且
+
+$$\lim_{x \to x_0} f(x) = f(x_0)$$
+
+则称 $f(x)$ 在点 $x_0$ 处连续。
+
+> 左连续：$\lim_{x \to x_0^-} f(x) = f(x_0)$
+> 右连续：$\lim_{x \to x_0^+} f(x) = f(x_0)$
+
+## 连续性运算法则
+
+1. **四则运算**：连续函数的和、差、积、商（分母不为零）仍连续
+2. **复合函数**：连续函数的复合仍连续
+3. **反函数**：单调连续函数的反函数仍连续且单调性相同
+
+## 间断点的分类
+
+### 第一类间断点（左右极限都存在）
+
+- **可去间断点**：$\lim_{x \to x_0} f(x) = A$ 存在，但 $f(x_0) \neq A$（或 $f(x_0)$ 无定义）
+- **跳跃间断点**：$\lim_{x \to x_0^-} f(x) \neq \lim_{x \to x_0^+} f(x)$
+
+### 第二类间断点（至少一侧极限不存在）
+
+- **无穷间断点**：$\lim_{x \to x_0} f(x) = \infty$（如 $x=0$ 是 $y=\frac{1}{x}$ 的无穷间断点）
+- **振荡间断点**：左右极限振荡不存在（如 $x=0$ 是 $y=\sin\frac{1}{x}$ 的振荡间断点）
+
+## 相关条目
+
+```dataview
+TABLE status, type
+FROM #数学
+WHERE contains(tags, this.file.tags[1]) AND type != "permanent"
+SORT file.name ASC
+```

@@ -1,0 +1,7 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace

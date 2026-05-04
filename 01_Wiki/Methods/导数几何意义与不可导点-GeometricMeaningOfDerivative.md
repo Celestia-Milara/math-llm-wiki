@@ -1,0 +1,43 @@
+---
+title: 导数的几何意义与不可导点判别
+tags: [数学, 第3讲, 方法]
+created: 2026-05-03
+type: permanent
+status: raw_compilation
+summary: 导数即切线斜率，通过分析绝对值函数可导性判断不可导点。
+source: 00_Raw/03_第3讲_一元函数微分学的概念.md
+---
+
+> [!WARNING] AI Generated
+> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 status 改为 practice_verified。
+
+## 导数的几何意义
+
+$f'(x_0)$ 是曲线 $y = f(x)$ 在点 $(x_0, y_0)$ 处切线的斜率。
+
+- **切线方程**：$y - y_0 = f'(x_0)(x - x_0)$
+- **法线方程**：$y - y_0 = -\frac{1}{f'(x_0)}(x - x_0)$（$f'(x_0) \neq 0$）
+
+> 切线存在不代表导数存在（如无穷导数时切线存在但导数视为不存在）。
+
+## $|f(x)|$ 的可导性判别
+
+设 $f(x)$ 在 $x_0$ 处可导，则
+
+1. **$f(x_0) \neq 0$**：$|f(x)|$ 在 $x_0$ 处可导
+2. **$f(x_0) = 0$**：
+   - $f'(x_0) = 0$ $\Rightarrow$ $|f(x)|$ 在 $x_0$ 处可导
+   - $f'(x_0) \neq 0$ $\Rightarrow$ $|f(x)|$ 在 $x_0$ 处不可导
+
+### 推广
+
+若 $\varphi(x)$ 在 $x_0$ 处连续，则 $f(x) = |x - x_0|\varphi(x)$ 在 $x_0$ 处可导 $\iff$ $\varphi(x_0) = 0$。
+
+## 相关条目
+
+```dataview
+TABLE status, type
+FROM #数学
+WHERE contains(tags, this.file.tags[1]) AND type != "permanent"
+SORT file.name ASC
+```

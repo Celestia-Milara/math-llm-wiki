@@ -1,0 +1,70 @@
+---
+title: 泰勒公式证明积分不等式
+tags: [数学, 第11讲, 方法]
+created: 2026-05-03
+type: permanent
+status: raw_compilation
+summary: 利用泰勒公式展开被积函数，借助余项估计证明积分不等式。
+source: 00_Raw/11_第11讲_一元函数积分学的应用(二).md
+---
+
+## 方法概述
+
+此方法多用于所给条件为"$f(x)$ 二阶可导"且题中有简单函数值（甚至为 0）的题目。
+
+### 基本步骤
+
+1. 选取合适的展开点（通常为已知函数值的点或区间中点）
+2. 将 $f(x)$ 展开成泰勒公式（带拉格朗日余项）
+3. 对展开式两端积分
+4. 利用余项估计或 $f''(x)$ 的有界性进行放缩
+
+## 典型例题
+
+**条件**：$f(x)$ 在 $[0, 2]$ 上二阶导数连续，$f(1) = 0$，$M = \max_{x \in [0,2]} |f''(x)|$。
+
+**结论**：
+
+$$
+\left| \int_0^2 f(x) \, \mathrm{d}x \right| \leqslant \frac{1}{3} M.
+$$
+
+**证明要点**：选取 $x_0 = 1$ 展开泰勒公式：
+
+$$
+f(x) = f(1) + f'(1)(x - 1) + \frac{f''(\xi)}{2} (x - 1)^2 = f'(1)(x - 1) + \frac{f''(\xi)}{2} (x - 1)^2.
+$$
+
+两端积分，利用 $\int_0^2 (x - 1) \, \mathrm{d}x = 0$，得
+
+$$
+\int_0^2 f(x) \, \mathrm{d}x = \frac12 \int_0^2 f''(\xi) (x - 1)^2 \, \mathrm{d}x.
+$$
+
+故
+
+$$
+\left| \int_0^2 f(x) \, \mathrm{d}x \right| \leqslant \frac{M}{2} \int_0^2 (x - 1)^2 \, \mathrm{d}x = \frac{M}{3}.
+$$
+
+## 常用技巧
+
+- 选取展开点时，使线性项积分后为 0（如区间中点）
+- 结合 $f''(x)$ 的有界性进行估计
+
+> [!WARNING] AI Generated
+> 本页面由 AI 根据原始笔记自动编译，未经人工校核。
+
+---
+
+**来源**：`00_Raw/11_第11讲_一元函数积分学的应用(二).md`
+
+```dataview
+TABLE
+  title as "名称",
+  status as "状态",
+  summary as "摘要"
+FROM "01_Wiki"
+WHERE contains(tags, this.file.tags[1]) OR contains(tags, "泰勒公式")
+SORT file.name ASC
+```
