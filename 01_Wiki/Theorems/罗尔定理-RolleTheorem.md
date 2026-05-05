@@ -1,11 +1,11 @@
 ---
-title: 罗尔定理（Rolle's Theorem）
-tags: [数学, 第6讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 在区间端点函数值相等的可导函数，内部必存在导数为零的点。
-source: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
+标题: 罗尔定理（Rolle's Theorem）
+标签: [数学, 第6讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 在区间端点函数值相等的可导函数，内部必存在导数为零的点。
+来源: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
 ---
 
 > [!WARNING] AI Generated

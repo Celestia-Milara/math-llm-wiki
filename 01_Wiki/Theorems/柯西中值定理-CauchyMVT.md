@@ -1,11 +1,11 @@
 ---
-title: 柯西中值定理（Cauchy's Mean Value Theorem）
-tags: [数学, 第6讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 拉格朗日中值定理的参数形式推广，涉及两个函数的导数比值关系。
-source: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
+标题: 柯西中值定理（Cauchy's Mean Value Theorem）
+标签: [数学, 第6讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 拉格朗日中值定理的参数形式推广，涉及两个函数的导数比值关系。
+来源: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
 ---
 
 > [!WARNING] AI Generated

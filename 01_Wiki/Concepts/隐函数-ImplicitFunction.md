@@ -1,11 +1,11 @@
 ---
-title: 隐函数
-tags: [数学, 第1讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 由方程 F(x, y) = 0 隐含确定的函数关系，不一定能显化。
-source: 00_Raw/01_第1讲_函数极限与连续.md
+标题: 隐函数
+标签: [数学, 第1讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 由方程 F(x, y) = 0 隐含确定的函数关系，不一定能显化。
+来源: 00_Raw/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

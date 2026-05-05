@@ -1,11 +1,11 @@
 ---
-title: 邻域
-tags: [数学, 第1讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 描述点 x₀"附近"的区间概念，是极限定义的几何基础。
-source: 00_Raw/01_第1讲_函数极限与连续.md
+标题: 邻域
+标签: [数学, 第1讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 描述点 x₀"附近"的区间概念，是极限定义的几何基础。
+来源: 00_Raw/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

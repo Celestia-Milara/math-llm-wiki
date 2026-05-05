@@ -1,11 +1,11 @@
 ---
-title: 弹性（Elasticity）
-tags: [数学, 第7讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 因变量对自变量变化的反应灵敏度的度量，即相对变化率的比值。
-source: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
+标题: 弹性（Elasticity）
+标签: [数学, 第7讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 因变量对自变量变化的反应灵敏度的度量，即相对变化率的比值。
+来源: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
 ---
 
 > [!WARNING] AI Generated

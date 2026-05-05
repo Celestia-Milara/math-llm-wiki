@@ -1,11 +1,11 @@
 ---
-title: 费马定理（Fermat's Theorem）
-tags: [数学, 第6讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 可导函数在极值点处的导数必为零，是中值定理的基础。
-source: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
+标题: 费马定理（Fermat's Theorem）
+标签: [数学, 第6讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 可导函数在极值点处的导数必为零，是中值定理的基础。
+来源: 00_Raw/06_第6讲_一元函数微分学的应用(二).md
 ---
 
 > [!WARNING] AI Generated

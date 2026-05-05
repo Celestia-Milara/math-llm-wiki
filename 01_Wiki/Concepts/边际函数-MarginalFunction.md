@@ -1,11 +1,11 @@
 ---
-title: 边际函数（Marginal Function）
-tags: [数学, 第7讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 经济学中导数的应用，表示当自变量改变一个单位时因变量的近似改变量。
-source: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
+标题: 边际函数（Marginal Function）
+标签: [数学, 第7讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 经济学中导数的应用，表示当自变量改变一个单位时因变量的近似改变量。
+来源: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
 ---
 
 > [!WARNING] AI Generated

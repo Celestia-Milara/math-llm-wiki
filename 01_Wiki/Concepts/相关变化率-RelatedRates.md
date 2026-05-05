@@ -1,11 +1,11 @@
 ---
-title: 相关变化率（Related Rates）
-tags: [数学, 第7讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 通过已知变化率求解未知变化率的链式法则应用，涉及参变量之间通过导数相互关联。
-source: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
+标题: 相关变化率（Related Rates）
+标签: [数学, 第7讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 通过已知变化率求解未知变化率的链式法则应用，涉及参变量之间通过导数相互关联。
+来源: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
 ---
 
 > [!WARNING] AI Generated

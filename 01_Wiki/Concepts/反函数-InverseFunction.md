@@ -1,11 +1,11 @@
 ---
-title: 反函数
-tags: [数学, 第1讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 若对每个 y 存在唯一 x 满足 y = f(x)，则定义反函数 x = f⁻¹(y)。
-source: 00_Raw/01_第1讲_函数极限与连续.md
+标题: 反函数
+标签: [数学, 第1讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 若对每个 y 存在唯一 x 满足 y = f(x)，则定义反函数 x = f⁻¹(y)。
+来源: 00_Raw/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

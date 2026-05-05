@@ -1,11 +1,13 @@
 ---
-title: 欧拉方程求解方法
-tags: [数学, 第15讲, 方法]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 通过变量代换 $x = \mathrm{e}^t$ 将欧拉方程化为常系数线性微分方程求解。
-source: 00_Raw/15_第15讲_微分方程.md
+标题: 欧拉方程求解方法
+标签: [数学, 第15讲, 方法]
+创建日期: 2026-05-03
+类型: 永久笔记
+问题类型: null
+问题备注: ""
+最后练习: null
+摘要: 通过变量代换 $x = \mathrm{e}^t$ 将欧拉方程化为常系数线性微分方程求解。
+来源: 00_Raw/15_第15讲_微分方程.md
 ---
 
 > [!WARNING] AI Generated

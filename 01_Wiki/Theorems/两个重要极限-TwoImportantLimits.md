@@ -1,11 +1,11 @@
 ---
-title: 两个重要极限
-tags: [数学, 第1讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: sinx/x 和 (1+1/x)^x 是两个基础极限，广泛用于各类极限计算。
-source: 00_Raw/01_第1讲_函数极限与连续.md
+标题: 两个重要极限
+标签: [数学, 第1讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: sinx/x 和 (1+1/x)^x 是两个基础极限，广泛用于各类极限计算。
+来源: 00_Raw/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

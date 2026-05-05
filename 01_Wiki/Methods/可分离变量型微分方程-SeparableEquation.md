@@ -1,11 +1,13 @@
 ---
-title: 可分离变量型微分方程
-tags: [数学, 第15讲, 方法]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 形如 $y' = f(x)g(y)$ 的方程，通过分离变量后两边积分求解。
-source: 00_Raw/15_第15讲_微分方程.md
+标题: 可分离变量型微分方程
+标签: [数学, 第15讲, 方法]
+创建日期: 2026-05-03
+类型: 永久笔记
+问题类型: null
+问题备注: ""
+最后练习: null
+摘要: 形如 $y' = f(x)g(y)$ 的方程，通过分离变量后两边积分求解。
+来源: 00_Raw/15_第15讲_微分方程.md
 ---
 
 > [!WARNING] AI Generated

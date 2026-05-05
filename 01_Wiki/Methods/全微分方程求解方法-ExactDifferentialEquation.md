@@ -1,11 +1,13 @@
 ---
-title: 全微分方程求解方法
-tags: [数学, 第15讲, 方法]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 若 $P\mathrm{d}x + Q\mathrm{d}y = 0$ 的左端是某二元函数的全微分，则直接积分求出原函数即得通解。
-source: 00_Raw/15_第15讲_微分方程.md
+标题: 全微分方程求解方法
+标签: [数学, 第15讲, 方法]
+创建日期: 2026-05-03
+类型: 永久笔记
+问题类型: null
+问题备注: ""
+最后练习: null
+摘要: 若 $P\mathrm{d}x + Q\mathrm{d}y = 0$ 的左端是某二元函数的全微分，则直接积分求出原函数即得通解。
+来源: 00_Raw/15_第15讲_微分方程.md
 ---
 
 > [!WARNING] AI Generated

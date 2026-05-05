@@ -1,11 +1,11 @@
 ---
-title: 周期性
-tags: [数学, 第1讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 函数值以固定周期重复出现的性质。
-source: 00_Raw/01_第1讲_函数极限与连续.md
+标题: 周期性
+标签: [数学, 第1讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 函数值以固定周期重复出现的性质。
+来源: 00_Raw/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

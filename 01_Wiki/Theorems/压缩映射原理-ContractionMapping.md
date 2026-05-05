@@ -1,11 +1,11 @@
 ---
-title: 压缩映射原理
-tags: [数学, 第2讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 当递推函数满足 Lipschitz 常数小于 1 时，数列收敛于不动点。
-source: 00_Raw/02_第2讲_数列极限.md
+标题: 压缩映射原理
+标签: [数学, 第2讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 当递推函数满足 Lipschitz 常数小于 1 时，数列收敛于不动点。
+来源: 00_Raw/02_第2讲_数列极限.md
 ---
 
 > [!WARNING] AI Generated

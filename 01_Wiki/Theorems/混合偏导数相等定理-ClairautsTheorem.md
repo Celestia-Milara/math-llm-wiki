@@ -1,11 +1,11 @@
 ---
-title: 混合偏导数相等定理（Clairaut 定理）
-tags: [数学, 第13讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 在连续性条件下，二阶混合偏导数与求导次序无关。
-source: 00_Raw/13_第13讲_多元函数微分学.md
+标题: 混合偏导数相等定理（Clairaut 定理）
+标签: [数学, 第13讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 在连续性条件下，二阶混合偏导数与求导次序无关。
+来源: 00_Raw/13_第13讲_多元函数微分学.md
 ---
 
 > [!WARNING] AI Generated

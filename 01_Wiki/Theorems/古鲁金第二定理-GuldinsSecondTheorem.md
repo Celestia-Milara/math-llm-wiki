@@ -1,11 +1,11 @@
 ---
-title: 古鲁金第二定理（Pappus–Guldin 定理）
-tags: [数学, 第14讲, 定理]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 平面区域绕不与之相交的轴旋转所得旋转体的体积等于区域面积乘以形心所经过的路程。
-source: 00_Raw/14_第14讲_二重积分.md
+标题: 古鲁金第二定理（Pappus–Guldin 定理）
+标签: [数学, 第14讲, 定理]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 平面区域绕不与之相交的轴旋转所得旋转体的体积等于区域面积乘以形心所经过的路程。
+来源: 00_Raw/14_第14讲_二重积分.md
 ---
 
 > [!WARNING] AI Generated

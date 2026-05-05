@@ -1,11 +1,11 @@
 ---
-title: 复利与连续复利（Compound Interest）
-tags: [数学, 第7讲, 概念]
-created: 2026-05-03
-type: permanent
-status: raw_compilation
-summary: 利息计入本金重复计息的金融数学概念，连续复利是支付次数趋于无穷时的极限情形。
-source: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
+标题: 复利与连续复利（Compound Interest）
+标签: [数学, 第7讲, 概念]
+创建日期: 2026-05-03
+类型: 永久笔记
+掌握状态: 待编译
+摘要: 利息计入本金重复计息的金融数学概念，连续复利是支付次数趋于无穷时的极限情形。
+来源: 00_Raw/07_第7讲_一元函数微分学的应用(三).md
 ---
 
 > [!WARNING] AI Generated
