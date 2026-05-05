@@ -1,3 +1,11 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "00_Raw/",
+    "CLAUDE"
+  ],
+  "newFileLocation": "current",
+  "openBehavior": "",
+  "showLineNumber": false
 }

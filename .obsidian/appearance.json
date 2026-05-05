@@ -1,5 +1,10 @@
 {
   "cssTheme": "Catppuccin",
   "theme": "system",
-  "accentColor": ""
+  "accentColor": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [],
+  "interfaceFontFamily": "Inter",
+  "textFontFamily": "Inter"
 }

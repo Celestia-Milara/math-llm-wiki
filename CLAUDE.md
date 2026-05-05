@@ -9,6 +9,7 @@
 - `01_Wiki/`: 结构化知识，包含 Concepts (概念), Theorems (定理), Methods (解题方法)。
 - `02_Output/`: 存放总结报告、复习提纲、错题集。
 - `03_Daily/`: 学习日志。
+- `04_Templates/`: Obsidian 模板文件。日记模板位于 `04_Templates/Daily Note Template.md`，包含学习内容、错题、思考三部分。
 
 ## 3. 笔记模板 (Frontmatter)
 所有新创建的 Wiki 页面必须包含：
