@@ -2,7 +2,9 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "userIgnoreFilters": [
-    "00_Raw/",
+    "01_Raw/",
+    "99_System/",
+    "06_Templates/",
     "CLAUDE"
   ],
   "newFileLocation": "current",

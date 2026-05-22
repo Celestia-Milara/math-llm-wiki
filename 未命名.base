@@ -4,3 +4,5 @@ views:
     sort:
       - property: file.name
         direction: ASC
+  - type: table
+    name: 视图
