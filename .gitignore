@@ -2,6 +2,22 @@
 Thumbs.db
 .DS_Store
 
-# Obsidian
+# Obsidian workspace
 .obsidian/workspace.json
 .obsidian/workspace
+
+# Obsidian plugins (installable via Community Plugins)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/obsidian_askpass.sh
+
+# Obsidian themes (installable via Community Themes)
+.obsidian/themes/*/theme.css
+
+# Python
+*.pyc
+__pycache__/
+
+# Misc
+未命名.base
