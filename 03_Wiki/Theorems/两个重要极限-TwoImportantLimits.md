@@ -5,7 +5,7 @@
 类型: 永久笔记
 掌握状态: 待编译
 摘要: sinx/x 和 (1+1/x)^x 是两个基础极限，广泛用于各类极限计算。
-来源: 01_Raw/01_第1讲_函数极限与连续.md
+来源: 01_Raw/Archive/Lectures/01_第1讲_函数极限与连续.md
 ---
 
 > [!WARNING] AI Generated

@@ -5,7 +5,7 @@
 类型: 永久笔记
 掌握状态: 待编译
 摘要: 当递推函数满足 Lipschitz 常数小于 1 时，数列收敛于不动点。
-来源: 01_Raw/02_第2讲_数列极限.md
+来源: 01_Raw/Archive/Lectures/02_第2讲_数列极限.md
 ---
 
 > [!WARNING] AI Generated
