@@ -4,7 +4,7 @@
 创建日期: 2026-05-03
 类型: 永久笔记
 摘要: 通过变量代换 $x = \mathrm{e}^t$ 将欧拉方程化为常系数线性微分方程求解。
-来源: 01_Raw/15_第15讲_微分方程.md
+来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
 ---
 
 > [!WARNING] AI Generated

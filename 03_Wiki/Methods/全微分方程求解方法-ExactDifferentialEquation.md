@@ -4,7 +4,7 @@
 创建日期: 2026-05-03
 类型: 永久笔记
 摘要: 若 $P\mathrm{d}x + Q\mathrm{d}y = 0$ 的左端是某二元函数的全微分，则直接积分求出原函数即得通解。
-来源: 01_Raw/15_第15讲_微分方程.md
+来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
 ---
 
 > [!WARNING] AI Generated
