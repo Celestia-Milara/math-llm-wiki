@@ -65,7 +65,7 @@ math/
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/<your-username>/math.git
+git clone https://github.com/Celestia-Milara/math-llm-wiki
 ```
 
 > 注意：由于使用了 Git LFS，需要先安装 [Git LFS](https://git-lfs.github.com)：
