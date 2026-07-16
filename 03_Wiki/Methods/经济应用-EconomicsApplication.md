@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 利用导数工具解决经济学中的成本、收益、利润优化及弹性分析问题的系统方法。
 来源: 01_Raw/Archive/Lectures/07_第7讲_一元函数微分学的应用(三).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -45,5 +46,5 @@
 **来源**：`01_Raw/07_第7讲_一元函数微分学的应用(三).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

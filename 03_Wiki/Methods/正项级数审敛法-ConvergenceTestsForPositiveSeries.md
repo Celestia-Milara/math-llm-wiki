@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 正项级数敛散性判别的六种方法：收敛原则、比较判别法、比值/根值判别法、积分判别法。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -52,9 +53,9 @@
 
 ## 相关页面
 
-- [[NumericalSeries|常数项级数]]
+- [[03_Wiki/Concepts/常数项级数-NumericalSeries|常数项级数]]
 - [[莱布尼茨判别法-LeibnizTest|莱布尼茨判别法]]
-- [[AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
+- [[03_Wiki/Concepts/绝对收敛与条件收敛-AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
 
 ---
 

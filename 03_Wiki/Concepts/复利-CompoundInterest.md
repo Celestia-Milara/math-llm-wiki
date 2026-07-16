@@ -3,9 +3,9 @@
 标签: [数学, 第7讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 利息计入本金重复计息的金融数学概念，连续复利是支付次数趋于无穷时的极限情形。
 来源: 01_Raw/Archive/Lectures/07_第7讲_一元函数微分学的应用(三).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -52,5 +52,5 @@ $$
 **来源**：`01_Raw/07_第7讲_一元函数微分学的应用(三).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

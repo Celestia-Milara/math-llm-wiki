@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 收敛级数满足线性运算、加括号不变和、改变有限项不影响敛散性等基本性质。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -42,8 +42,8 @@ $$\sum_{n=1}^{\infty} (a u_n \pm b v_n) = a \sum_{n=1}^{\infty} u_n \pm b \sum_{
 
 ## 相关页面
 
-- [[NumericalSeries|常数项级数]]
-- [[ConvergenceTestsForPositiveSeries|正项级数审敛法]]
+- [[03_Wiki/Concepts/常数项级数-NumericalSeries|常数项级数]]
+- [[03_Wiki/Methods/正项级数审敛法-ConvergenceTestsForPositiveSeries|正项级数审敛法]]
 
 ---
 

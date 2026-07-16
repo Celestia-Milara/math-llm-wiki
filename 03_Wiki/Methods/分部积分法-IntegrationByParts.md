@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 将难以直接计算的积分转化为另一个更容易计算的积分，核心是u和v的选取。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -48,7 +49,7 @@ $$\int \mathrm{e}^{ax}\sin bx\,\mathrm{d}x = \frac{a\mathrm{e}^{ax}\sin bx - b\m
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Methods"
 WHERE contains(标签, this.标签[1])
 SORT file.name ASC

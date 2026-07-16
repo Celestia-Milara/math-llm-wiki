@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 第9讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 破坏定积分两个必要条件（区间有限、函数有界）的积分，分为无穷区间和无界函数两类。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -60,7 +60,7 @@ $$
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki"
 WHERE contains(file.name, "广义积分") OR contains(标签, "广义积分")

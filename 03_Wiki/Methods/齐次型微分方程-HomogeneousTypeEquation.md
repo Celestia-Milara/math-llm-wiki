@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 形如 $\dfrac{\mathrm{d}y}{\mathrm{d}x} = \varphi\left(\dfrac{y}{x}\right)$ 的方程，通过代换 $u = y/x$ 化为可分离变量型。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -30,8 +31,8 @@ $$x\frac{\mathrm{d}u}{\mathrm{d}x} + u = \varphi(u) \quad\Rightarrow\quad \frac{
 
 ## 相关页面
 
-- [[SeparableEquation|可分离变量型微分方程]]
-- [[OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Methods/可分离变量型微分方程-SeparableEquation|可分离变量型微分方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
 
 ---
 

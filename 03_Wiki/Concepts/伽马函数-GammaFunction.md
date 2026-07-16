@@ -3,9 +3,9 @@
 标签: [数学, 第9讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 一种重要的特殊函数，用于快速计算含指数幂的反常积分，具有递推性质。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -41,7 +41,7 @@ $$\int_0^{+\infty} x^n \mathrm{e}^{-x}\,\mathrm{d}x = \Gamma(n+1) = n!$$
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki"
 WHERE contains(file.name, "广义积分") OR contains(标签, "广义积分")
 SORT file.ctime ASC

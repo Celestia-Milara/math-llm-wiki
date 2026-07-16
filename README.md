@@ -1,94 +1,61 @@
-# 考研数学 LLM Wiki
+# 数学资料库
 
-> An Obsidian-based knowledge management system for postgraduate math exam preparation, powered by Claude Code and DeepSeek API.
+这是服务于 `kaoyan` 考研复习 Vault 的独立数学资料库。它保存原始讲义、题目、解析、图片、资料定位数据，以及经明确标记的通用数学参考页。
 
-这是一个基于 Obsidian 的考研数学 LLM 辅助学习闭环系统。它不只是数学资料仓库，而是将学习、做题、纠错、复习串联成完整闭环的智能 Wiki。
+`math` 不维护个人复习进度、每日记录、错题任务、掌握状态或复习计划。它们的唯一正式来源是只读协作 Vault `D:\tool\Obsidian\kaoyan`；本仓库不会修改该 Vault，也不与它自动同步。
 
----
+## 快速查找
 
-## 核心理念
+1. 从 [资料主索引](01_Raw/资料主索引.md) 按科目进入资料。
+2. 高等数学的讲义、题目和解析可由 [章节映射](01_Raw/章节映射.json) 按讲次与行范围定位。
+3. 线性代数、概率论和综合卷通过各自分科索引定位实际题目与解析文件。
+4. 阅读 `03_Wiki/` 时查看 `可信状态`：`S2 已核查` 可作为稳定参考；`S3 待核查`（含 AI 整理内容）只能作为待核对的辅助材料。
 
-传统笔记是静态的，这个系统是动态的：
+## 内容等级
 
-- **学习前** — 生成行动型学习指南，告诉你怎么学、怎么做题、怎么自查
-- **做题后** — 分析错题和重点题，优先分析**你自己的错误思路**，而非只给标准答案
-- **理解时** — 审查你的概念复述，指出会导致做题错误的风险
-- **沉淀后** — 将长期有价值的内容写入 Wiki、记录复习计划
+| 等级 | 内容 | 用途 |
+|---|---|---|
+| S0 原始资料 | 讲义、题目、解析、原图 | 数学内容的主要依据，保持原貌 |
+| S1 定位数据 | 章节映射、题号、来源路径、资料索引 | 快速定位 S0，不替代原文 |
+| S2 已核查参考 | 人工确认的 Wiki | 稳定参考 |
+| S3 待核查参考 | AI 生成或未人工确认的 Wiki | 显式待核查，不作为已确认事实 |
+| L 历史学习数据 | 旧指南、错题记录、报告 | 仅保留历史来源与日期，不代表当前状态 |
 
-## 学习闭环
+## 目录职责
 
-```
-学习指南 -> 做题记录 -> 错题/重点题 Records
--> 错因分析 -> Wiki/题型/方法补充
--> 概念理解审查 -> 复习计划
-```
-
-## 目录结构
-
-```
-math/
-├── 00_Inbox/          临时输入
-├── 01_Raw/            原始资料（讲义、题目、图片）
-├── 02_Learning/       学习过程（指南、日记、会话）
-├── 03_Wiki/           永久知识库
-│   ├── Concepts/      核心概念
-│   ├── Theorems/      定理与公式
-│   ├── Methods/       解题方法
-│   ├── ProblemTypes/  题型分类
-│   └── Hubs/          章节索引
-├── 04_Records/        错题、重点题、概念审查记录
-├── 05_Outputs/        汇总报告（弱点分析、复习计划）
-├── 06_Templates/      Obsidian 模板
-├── 99_System/         系统规则、提示词、字段规范、脚本
-├── .claude/           Claude Code skills 配置
-└── CLAUDE.md          LLM 工作协议
+```text
+00_Inbox/       待整理资料输入
+01_Raw/         原始资料、章节映射和资料索引
+02_Learning/    历史学习产物（不再写入活动状态）
+03_Wiki/        通用数学参考；每页有可信状态
+04_Records/     历史个人记录（不再新增错题或复习状态）
+05_Outputs/     历史报告（不作为当前复习入口）
+06_Templates/   资料索引与 Wiki 维护模板；旧学习模板已停用
+99_System/      资料库规则、schema 与只读校验脚本
 ```
 
-## 技术栈
+## 与 kaoyan 的低耦合导航
 
-| 工具 | 用途 |
-|---|---|
-| [Obsidian](https://obsidian.md) | 知识管理、Markdown 编辑、双链笔记 |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | 工作环境与文件编排器，负责读写 Obsidian 文件 |
-| [DeepSeek API](https://platform.deepseek.com) | 数学推理模型，生成解释、推导、错因分析 |
-| [Git LFS](https://git-lfs.github.com) | 管理讲义/题目截图等大文件 |
+在 `kaoyan` 的日记或任务中记录：科目、章节/讲次、题号与 `math` 内资料路径。例如：`高等数学｜第6讲｜基础篇题18｜01_Raw/Archive/Problems/..._试题.md`。
 
-### 使用的 Obsidian 插件
+可使用 Obsidian URI 打开资料：
 
-- **Dataview** — 查询和聚合笔记数据
-- **Templater** — 高级模板引擎
-- **Obsidian Style Settings** — 主题自定义
-- **Obsidian Git** — Git 集成
-
-## 使用方法
-
-### 1. 克隆仓库
-
-```bash
-git clone https://github.com/Celestia-Milara/math-llm-wiki
+```text
+obsidian://open?vault=math&file=01_Raw/资料主索引
 ```
 
-> 注意：由于使用了 Git LFS，需要先安装 [Git LFS](https://git-lfs.github.com)：
-> ```bash
-> git lfs install
-> ```
+路径需采用 Vault 内相对路径、使用 `/`，并对空格等 URI 特殊字符编码。不要依赖跨 Vault Dataview、反向链接或自动双向同步。
 
-### 2. 用 Obsidian 打开
+## 健康检查
 
-在 Obsidian 中打开 `math` 文件夹作为 Vault。插件会在首次打开时自动从 Community Plugins 安装。
+运行以下只读检查（不会修改任何资料）：
 
-### 3. 与 Claude Code 配合使用
+```powershell
+python 99_System/scripts/check_vault.py
+```
 
-在 `math` 目录下启动 Claude Code，它会读取 `CLAUDE.md` 中的工作协议，自动按照闭环流程工作：
+检查链接、frontmatter、章节映射、AI/可信状态、旧活动字段和无效关联。详见 [资料库维护](99_System/docs/资料库维护.md)。
 
-- 说 "学习第 N 讲" — 生成学习指南
-- 记录做题情况 — 分析错题和错误思路
-- 复述概念 — 审查理解准确性
+## 历史与验收
 
-## AI 状态说明
-
-本系统中由 AI 生成但未经人工核查的内容会标注 `AI状态: 待核查`，提醒用户需要自行验证。
-
-## License
-
-MIT
+本次重构的基线、迁移和验收结果记录在 [REBUILD_REPORT.md](REBUILD_REPORT.md)。其中标为“待手工验收”的 Obsidian 图形界面步骤不得视为已完成。

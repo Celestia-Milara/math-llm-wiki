@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 将微分方程化为算子多项式的代数形式，通过逆算子求解非齐次方程的特解，计算量小但需记忆规则。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -43,7 +44,7 @@ $$\frac{1}{F(\mathrm{D})}\mathrm{e}^{\alpha x}v(x) = \mathrm{e}^{\alpha x} \cdot
 
 ## 相关页面
 
-- [[ConstantCoefficientODE|常系数线性微分方程求解]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程求解]]
 - [[线性微分方程解的结构-StructureOfLinearODESolutions|线性微分方程解的结构]]
 
 ---

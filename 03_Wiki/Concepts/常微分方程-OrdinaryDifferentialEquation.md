@@ -3,9 +3,9 @@
 标签: [数学, 第15讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 表示未知函数及其导数与自变量之间关系的方程，研究含一元函数导数的方程的基本概念。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,15 +46,15 @@ $$y(x_0) = a_0,\; y'(x_0) = a_1,\; \dots,\; y^{(n-1)}(x_0) = a_{n-1}$$
 
 ## 相关概念
 
-- [[LinearDifferentialEquation|线性微分方程]]
-- [[SeparableEquation|可分离变量型微分方程]]
+- [[03_Wiki/Concepts/线性微分方程-LinearDifferentialEquation|线性微分方程]]
+- [[03_Wiki/Methods/可分离变量型微分方程-SeparableEquation|可分离变量型微分方程]]
 - [[一阶线性微分方程-FirstOrderLinearODE|一阶线性微分方程]]
-- [[ConstantCoefficientODE|常系数线性微分方程]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "微分方程") AND 类型 != "概念"
 SORT 类型 ASC

@@ -3,9 +3,9 @@
 标签: [数学, 第6讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 闭区间上连续函数的四个基本定理，包括有界与最值定理、介值定理、平均值定理、零点定理。
 来源: 01_Raw/Archive/Lectures/06_第6讲_一元函数微分学的应用(二).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,5 +46,5 @@ $$
 **来源**：`01_Raw/06_第6讲_一元函数微分学的应用(二).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

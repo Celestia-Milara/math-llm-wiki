@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 定积分存在的充分条件和必要条件，包括连续、单调、有界等情形。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -42,7 +42,7 @@
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki/Theorems"
 WHERE contains(标签, this.标签[1])

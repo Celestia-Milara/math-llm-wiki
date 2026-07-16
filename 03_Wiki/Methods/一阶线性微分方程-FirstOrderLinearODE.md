@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 形如 $y' + p(x)y = q(x)$ 的方程，可通过积分因子法化为全微分形式求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -42,9 +43,9 @@ $$y = \mathrm{e}^{-\int_{x_0}^x p(t)\,\mathrm{d}t} \left[ \int_{x_0}^x q(t)\,\ma
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
-- [[SeparableEquation|可分离变量型微分方程]]
-- [[BernoulliEquation|伯努利方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Methods/可分离变量型微分方程-SeparableEquation|可分离变量型微分方程]]
+- [[03_Wiki/Methods/伯努利方程-BernoulliEquation|伯努利方程]]
 
 ---
 

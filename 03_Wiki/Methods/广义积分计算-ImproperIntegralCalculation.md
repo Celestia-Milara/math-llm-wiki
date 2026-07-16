@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 识别奇点、拆分区间，在收敛条件下利用定积分方法计算广义积分。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -49,7 +50,7 @@ $$\Gamma(\alpha) = \int_0^{+\infty} x^{\alpha-1}\mathrm{e}^{-x}\,\mathrm{d}x$$
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki/Concepts" AND "03_Wiki/Theorems"
 WHERE contains(标签, "广义积分")

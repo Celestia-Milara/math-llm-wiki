@@ -3,9 +3,9 @@
 标签: [数学, 附录, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 高等数学中常见的平面曲线，包括心形线、双纽线、螺线、玫瑰线、摆线、星形线、笛卡儿叶形线等。
 来源: 01_Raw/Archive/Lectures/20_附录2_常用平面图形.md
+可信状态: S3 待核查
 ---
 
 ## 心形线 (Cardioid)
@@ -98,7 +98,7 @@ y = \dfrac{3at^2}{1 + t^3}
 ## Dataview 查询
 
 ```dataview
-TABLE 标签 AS 标签, 掌握状态 AS 状态
+TABLE 标签 AS 标签, 可信状态 AS 状态
 FROM "03_Wiki"
 WHERE contains(标签, "平面图形") OR contains(标签, "曲线")
 SORT file.name ASC

@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 通过换元将二阶方程化为一阶方程的三种基本类型：缺 $y$、缺 $x$、缺 $x$ 和 $y$。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -32,8 +33,8 @@ $$p\frac{\mathrm{d}p}{\mathrm{d}y} = f(y, p)$$
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
-- [[SeparableEquation|可分离变量型微分方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Methods/可分离变量型微分方程-SeparableEquation|可分离变量型微分方程]]
 
 ---
 

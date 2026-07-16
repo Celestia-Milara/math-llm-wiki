@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 一阶常系数线性差分方程 $y_{t+1} + ay_t = f(t)$ 的齐次解与非齐次特解的设定与求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -42,7 +43,7 @@ $$y_{t+1} + ay_t = f(t)$$
 
 ## 相关页面
 
-- [[DifferenceEquation|差分与差分方程]]
+- [[03_Wiki/Concepts/差分与差分方程-DifferenceEquation|差分与差分方程]]
 
 ---
 

@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 将周期函数展开为三角函数（正弦、余弦）的无穷级数，适用于满足狄利克雷条件的函数。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -34,7 +34,7 @@ $$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} \left(a_n \cos\frac{n\pi}{l}x + 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "傅里叶") OR contains(标签, "Fourier")
 SORT 类型 ASC

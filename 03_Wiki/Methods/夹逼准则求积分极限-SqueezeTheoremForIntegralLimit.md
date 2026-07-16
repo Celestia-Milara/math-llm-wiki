@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 利用夹逼准则（迫敛性）求与参数 $n$ 有关的定积分的极限。
 来源: 01_Raw/Archive/Lectures/11_第11讲_一元函数积分学的应用(二).md
+可信状态: S3 待核查
 ---
 
 ## 方法概述
@@ -55,7 +56,7 @@ $$
 ```dataview
 TABLE
   title as "名称",
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki"
 WHERE contains(标签, this.标签[1]) OR contains(标签, "夹逼准则")

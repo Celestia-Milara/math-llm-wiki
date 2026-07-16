@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 形如 $y' = f(x)g(y)$ 的方程，通过分离变量后两边积分求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -30,7 +31,7 @@ $$\frac{\mathrm{d}y}{\mathrm{d}x} = f(x)g(y) \quad\Rightarrow\quad \int \frac{\m
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
 - [[一阶线性微分方程-FirstOrderLinearODE|一阶线性微分方程]]
 
 ---

@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 将有理真分式分解为最简有理分式之和再逐项积分。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -49,7 +50,7 @@ $$\sin x = \frac{2t}{1+t^2},\quad \cos x = \frac{1-t^2}{1+t^2},\quad \mathrm{d}x
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Methods"
 WHERE contains(标签, this.标签[1])
 SORT file.name ASC

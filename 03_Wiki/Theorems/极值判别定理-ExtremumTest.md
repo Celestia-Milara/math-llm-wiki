@@ -3,9 +3,9 @@
 标签: [数学, 第5讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 利用导数判定极值点的三个充分条件，分别借助一阶导数符号、二阶导数符号和高阶导数符号。
 来源: 01_Raw/Archive/Lectures/05_第5讲_一元函数微分学的应用(一).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -51,5 +51,5 @@ $$
 **来源**：`01_Raw/05_第5讲_一元函数微分学的应用(一).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

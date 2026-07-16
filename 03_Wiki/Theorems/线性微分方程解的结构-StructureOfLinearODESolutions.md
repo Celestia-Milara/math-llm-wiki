@@ -3,9 +3,9 @@
 标签: [数学, 第15讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 齐次线性微分方程的解构成线性空间，非齐次方程的通解等于齐次通解加上一个特解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -37,8 +37,8 @@ $$y(x) = \bar{y}(x) + y^*(x)$$
 
 ## 相关页面
 
-- [[LinearDifferentialEquation|线性微分方程]]
-- [[ConstantCoefficientODE|常系数线性微分方程求解]]
+- [[03_Wiki/Concepts/线性微分方程-LinearDifferentialEquation|线性微分方程]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程求解]]
 
 ---
 

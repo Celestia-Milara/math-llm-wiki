@@ -3,9 +3,9 @@
 标签: [数学, 第9讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 偶函数、奇函数、周期函数的定积分简化公式，以及华里士公式和区间再现公式。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -61,7 +61,7 @@ $$\int_0^\pi \cos^n x\,\mathrm{d}x =
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki/Methods"
 WHERE contains(标签, this.标签[1])

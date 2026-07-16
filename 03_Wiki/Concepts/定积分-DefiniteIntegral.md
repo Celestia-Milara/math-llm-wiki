@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 定积分是黎曼和的极限，表示曲边梯形面积的代数和。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,7 +46,7 @@ $$\int_a^b f(x)\,\mathrm{d}x = \int_a^b f(t)\,\mathrm{d}t = \int_a^b f(u)\,\math
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki"
 WHERE contains(file.name, "定积分") OR contains(标签, "定积分")

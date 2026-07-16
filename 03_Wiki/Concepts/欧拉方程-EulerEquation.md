@@ -3,9 +3,9 @@
 标签: [数学, 第15讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 具有 $x^2y''+pxy'+qy=f(x)$ 形式的变系数线性微分方程，可通过变量代换化为常系数线性微分方程求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -41,14 +41,14 @@ $$\frac{\mathrm{d}^2y}{\mathrm{d}t^2} + (p-1)\frac{\mathrm{d}y}{\mathrm{d}t} + q
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
-- [[ConstantCoefficientODE|常系数线性微分方程求解]]
-- [[EulerEquationSolution|欧拉方程求解方法]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程求解]]
+- [[03_Wiki/Methods/欧拉方程求解方法-EulerEquationSolution|欧拉方程求解方法]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "欧拉方程") OR contains(标签, "Euler")
 SORT 类型 ASC

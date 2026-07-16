@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 函数图像的平移、伸缩、对称与翻折变换规则，以及基于隐式方程 F(x,y)=0 的对称性判别方法。
 来源: 01_Raw/Archive/Lectures/19_附录1_图像变换.md
+可信状态: S3 待核查
 ---
 
 ## 平移变换 (Translation)
@@ -67,7 +68,7 @@ F(x, y) &= F(-x, -y) \quad &\text{[关于原点对称]}
 ## Dataview 查询
 
 ```dataview
-TABLE 标签 AS 标签, 掌握状态 AS 状态
+TABLE 标签 AS 标签, 可信状态 AS 状态
 FROM "03_Wiki"
 WHERE contains(标签, "图像变换") OR contains(file.name, "Graph")
 SORT file.name ASC

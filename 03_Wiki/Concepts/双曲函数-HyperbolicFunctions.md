@@ -3,9 +3,9 @@
 标签: [数学, 附录, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 双曲函数（双曲正弦、双曲余弦、双曲正切）的定义、基本恒等式、倍角公式、反双曲函数及其与对数函数的联系。
 来源: 01_Raw/Archive/Lectures/23_附录5_从指数函数到双曲函数.md
+可信状态: S3 待核查
 ---
 
 ## 从指数函数出发
@@ -87,7 +87,7 @@ $$\mathrm{e}^y = x + \sqrt{x^2 + 1} \;\Longrightarrow\; y = \ln(x + \sqrt{x^2 + 
 ## Dataview 查询
 
 ```dataview
-TABLE 标签 AS 标签, 掌握状态 AS 状态
+TABLE 标签 AS 标签, 可信状态 AS 状态
 FROM "03_Wiki"
 WHERE contains(标签, "双曲函数") OR contains(标签, "指数函数")
 SORT file.name ASC

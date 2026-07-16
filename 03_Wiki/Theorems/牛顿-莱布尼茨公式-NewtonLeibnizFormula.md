@@ -3,9 +3,9 @@
 标签: [数学, 第9讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 沟通定积分与不定积分的桥梁，将定积分计算转化为原函数在端点处的差值。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -38,7 +38,7 @@ $$\int_a^b f(x)\,\mathrm{d}x = F(x)\Big|_a^b = F(b) - F(a)$$
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Methods" AND "03_Wiki/Concepts"
 WHERE contains(标签, this.标签[1])
 SORT file.name ASC

@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 无穷多个常数项相加的形式化表达式，通过部分和数列的极限定义其收敛与发散。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -42,14 +42,14 @@ $$\sum_{n=1}^{\infty} \frac{1}{n^p} \begin{cases}
 
 ## 相关概念
 
-- [[AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
-- [[PowerSeries|幂级数]]
+- [[03_Wiki/Concepts/绝对收敛与条件收敛-AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
+- [[03_Wiki/Concepts/幂级数-PowerSeries|幂级数]]
 - [[级数的基本性质-BasicPropertiesOfSeries|级数的基本性质]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "级数") OR contains(标签, this.标签[1])
 SORT 类型 ASC

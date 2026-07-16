@@ -3,13 +3,13 @@
 标签: [数学, 第1讲, 第6讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 用多项式逼近可导函数的方法，是极限计算最强大的工具。
 来源: 01_Raw/Archive/Lectures/01_第1讲_函数极限与连续.md, 01_Raw/Archive/Lectures/06_第6讲_一元函数微分学的应用(二).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
-> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 掌握状态 改为 practice_verified。
+> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 可信状态 改为 S2 已核查。
 ## 定理陈述
 
 
@@ -102,5 +102,5 @@ x - \ln(1 + x) &\sim \frac{1}{2}x^2
 - **消去未知项**：通过代入特殊点相加减，消去未知的函数值或导数值。
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE any(filter(this.标签, (t) => startswith(t, "第")), (chapter) => contains(标签, chapter)) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE any(filter(this.标签, (t) => startswith(t, "第")), (chapter) => contains(标签, chapter)) SORT file.name ASC
 ```

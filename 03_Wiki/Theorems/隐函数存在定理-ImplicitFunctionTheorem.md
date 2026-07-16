@@ -3,13 +3,13 @@
 标签: [数学, 第13讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 给出由方程确定隐函数的充分条件，并提供隐函数求导公式。
 来源: 01_Raw/Archive/Lectures/13_第13讲_多元函数微分学.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
-> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 掌握状态 改为 practice_verified。
+> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 可信状态 改为 S2 已核查。
 ## 定理陈述
 
 
@@ -55,7 +55,7 @@ $$
 ## 相关条目
 
 ```dataview
-TABLE 掌握状态, 类型
+TABLE 可信状态, 类型
 FROM "03_Wiki"
 WHERE contains(标签, this.标签[1]) AND 类型 != "permanent"
 SORT file.name ASC

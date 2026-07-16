@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 将一部分被积函数放入微分号d后面，形成复合函数结构以简化积分。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,7 +47,7 @@ $$\begin{aligned}
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Concepts"
 WHERE contains(标签, this.标签[1]) AND contains(标签, "概念")
 SORT file.name ASC

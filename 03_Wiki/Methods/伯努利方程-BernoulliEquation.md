@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 形如 $y' + p(x)y = q(x)y^n$ 的非线性一阶微分方程，通过代换化为一阶线性方程求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -28,7 +29,7 @@ $$\frac{\mathrm{d}y}{\mathrm{d}x} + p(x)y = q(x)y^n \quad (n \neq 0, 1)$$
 ## 相关页面
 
 - [[一阶线性微分方程-FirstOrderLinearODE|一阶线性微分方程]]
-- [[SeparableEquation|可分离变量型微分方程]]
+- [[03_Wiki/Methods/可分离变量型微分方程-SeparableEquation|可分离变量型微分方程]]
 
 ---
 

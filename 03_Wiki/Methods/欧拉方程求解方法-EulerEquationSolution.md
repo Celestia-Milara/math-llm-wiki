@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 通过变量代换 $x = \mathrm{e}^t$ 将欧拉方程化为常系数线性微分方程求解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -43,8 +44,8 @@ $$\frac{\mathrm{d}^2y}{\mathrm{d}t^2} + (p-1)\frac{\mathrm{d}y}{\mathrm{d}t} + q
 
 ## 相关页面
 
-- [[EulerEquation|欧拉方程]]
-- [[ConstantCoefficientODE|常系数线性微分方程求解]]
+- [[03_Wiki/Concepts/欧拉方程-EulerEquation|欧拉方程]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程求解]]
 
 ---
 

@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 交错级数的审敛定理：若通项绝对值单调递减且趋于零，则级数收敛。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -32,8 +32,8 @@
 
 ## 相关页面
 
-- [[NumericalSeries|常数项级数]]
-- [[AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
+- [[03_Wiki/Concepts/常数项级数-NumericalSeries|常数项级数]]
+- [[03_Wiki/Concepts/绝对收敛与条件收敛-AbsoluteAndConditionalConvergence|绝对收敛与条件收敛]]
 - [[级数的基本性质-BasicPropertiesOfSeries|级数的基本性质]]
 
 ---

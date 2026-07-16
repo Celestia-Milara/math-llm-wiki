@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 三角函数公式（诱导、倍角、半角、和差、积化和差、万能）、一元二次方程、因式分解、二项式定理、阶乘与双阶乘公式汇总。
 来源: 01_Raw/Archive/Lectures/22_附录4_重要公式.md
+可信状态: S3 待核查
 ---
 
 ## 1 三角函数公式
@@ -119,7 +120,7 @@ $$(a + b)^n = \sum_{k=0}^{n} C_n^k a^{n-k} b^k = a^n + n a^{n-1}b + \frac{n(n-1)
 ## Dataview 查询
 
 ```dataview
-TABLE 标签 AS 标签, 掌握状态 AS 状态
+TABLE 标签 AS 标签, 可信状态 AS 状态
 FROM "03_Wiki"
 WHERE contains(标签, "公式") OR contains(标签, "三角函数")
 SORT file.name ASC

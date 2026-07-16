@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 用定积分解决几何、物理等应用问题的核心方法——取微元再积分。
 来源: 01_Raw/Archive/Lectures/10_第10讲_一元函数积分学的应用(一).md
+可信状态: S3 待核查
 ---
 
 ## 方法概述
@@ -53,7 +54,7 @@ $$
 ```dataview
 TABLE
   title as "名称",
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki"
 WHERE any(filter(this.标签, (t) => startswith(t, "第")), (chapter) => contains(标签, chapter))

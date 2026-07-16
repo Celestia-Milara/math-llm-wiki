@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 通过特征方程求解常系数齐次线性微分方程，再用待定系数法或微分算子法求解非齐次方程。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -54,9 +55,9 @@ $$l = \max\{m, n\}, \quad k = \begin{cases}
 
 ## 相关页面
 
-- [[LinearDifferentialEquation|线性微分方程]]
+- [[03_Wiki/Concepts/线性微分方程-LinearDifferentialEquation|线性微分方程]]
 - [[线性微分方程解的结构-StructureOfLinearODESolutions|线性微分方程解的结构]]
-- [[DifferentialOperatorMethod|微分算子法]]
+- [[03_Wiki/Methods/微分算子法-DifferentialOperatorMethod|微分算子法]]
 
 ---
 

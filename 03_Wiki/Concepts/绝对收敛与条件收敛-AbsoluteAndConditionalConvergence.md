@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 任意项级数的两种收敛类型——绝对值级数收敛者为绝对收敛，自身收敛但绝对值级数发散者为条件收敛。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -33,14 +33,14 @@ $$\sum_{n=1}^{\infty} (-1)^{n-1} \frac{1}{n^p} \begin{cases}
 
 ## 相关页面
 
-- [[NumericalSeries|常数项级数]]
-- [[ConvergenceTestsForPositiveSeries|正项级数审敛法]]
-- [[AlternatingSeriesTest|交错级数审敛法]]
+- [[03_Wiki/Concepts/常数项级数-NumericalSeries|常数项级数]]
+- [[03_Wiki/Methods/正项级数审敛法-ConvergenceTestsForPositiveSeries|正项级数审敛法]]
+- [[03_Wiki/Theorems/莱布尼茨判别法-LeibnizTest|交错级数审敛法]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "收敛") AND 类型 != "概念"
 SORT 类型 ASC

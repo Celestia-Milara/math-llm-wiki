@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 数学解题中的等式变形与不等式变形技巧，涵盖定义法、公式法、换元法、相消法、同除法、倒置法、平方开方法、共轭法等核心方法。
 来源: 01_Raw/Archive/Lectures/24_附录6_变形技巧.md
+可信状态: S3 待核查
 ---
 
 ## 第一部分：等式变形与等价变形
@@ -154,7 +155,7 @@ x\ln x &\geqslant -\frac{1}{\mathrm{e}} \quad (x > 0)
 ## Dataview 查询
 
 ```dataview
-TABLE 标签 AS 标签, 掌握状态 AS 状态
+TABLE 标签 AS 标签, 可信状态 AS 状态
 FROM "03_Wiki"
 WHERE contains(标签, "变形") OR contains(标签, "方法")
 SORT file.name ASC

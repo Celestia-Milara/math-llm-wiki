@@ -3,9 +3,9 @@
 标签: [数学, 第6讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 可导函数在极值点处的导数必为零，是中值定理的基础。
 来源: 01_Raw/Archive/Lectures/06_第6讲_一元函数微分学的应用(二).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,5 +46,5 @@ $$
 **来源**：`01_Raw/06_第6讲_一元函数微分学的应用(二).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

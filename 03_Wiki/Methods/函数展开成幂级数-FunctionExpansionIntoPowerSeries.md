@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 利用已知展开式通过代换、四则运算、逐项求导/积分将函数间接展开为幂级数。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -38,8 +39,8 @@
 
 ## 相关页面
 
-- [[PowerSeries|幂级数]]
-- [[PowerSeriesSumFunction|幂级数求和函数]]
+- [[03_Wiki/Concepts/幂级数-PowerSeries|幂级数]]
+- [[03_Wiki/Methods/幂级数求和函数-PowerSeriesSumFunction|幂级数求和函数]]
 
 ---
 

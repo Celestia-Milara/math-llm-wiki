@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 通项为幂函数的函数项级数，是函数展开与求和的核心工具，具有收敛半径、收敛域等关键特征。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -59,16 +59,16 @@ $$\begin{aligned}
 
 ## 相关页面
 
-- [[NumericalSeries|常数项级数]]
+- [[03_Wiki/Concepts/常数项级数-NumericalSeries|常数项级数]]
 - [[阿贝尔定理-AbelsTheorem|阿贝尔定理]]
-- [[PowerSeriesConvergence|幂级数收敛域求法]]
-- [[PowerSeriesSumFunction|幂级数求和函数]]
-- [[FunctionExpansionIntoPowerSeries|函数展开成幂级数]]
+- [[03_Wiki/Methods/幂级数收敛域求法-PowerSeriesConvergence|幂级数收敛域求法]]
+- [[03_Wiki/Methods/幂级数求和函数-PowerSeriesSumFunction|幂级数求和函数]]
+- [[03_Wiki/Methods/函数展开成幂级数-FunctionExpansionIntoPowerSeries|函数展开成幂级数]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "幂级数") OR contains(标签, this.标签[1])
 SORT 类型 ASC

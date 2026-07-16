@@ -3,9 +3,9 @@
 标签: [数学, 第15讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 未知函数及其各阶导数均以线性形式出现的微分方程，包括齐次与非齐次、常系数与变系数情形。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -32,14 +32,14 @@ $$a_n(x)y^{(n)} + a_{n-1}(x)y^{(n-1)} + \cdots + a_1(x)y' + a_0(x)y = f(x)$$
 
 ## 相关概念
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
 - [[线性微分方程解的结构-StructureOfLinearODESolutions|线性微分方程解的结构]]
-- [[ConstantCoefficientODE|常系数线性微分方程求解]]
+- [[03_Wiki/Methods/常系数线性微分方程求解-ConstantCoefficientODE|常系数线性微分方程求解]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "线性微分方程") OR contains(标签, this.标签[1])
 SORT 类型 ASC

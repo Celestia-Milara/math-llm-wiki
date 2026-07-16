@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 若 $P\mathrm{d}x + Q\mathrm{d}y = 0$ 的左端是某二元函数的全微分，则直接积分求出原函数即得通解。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -33,7 +34,7 @@ $$u(x,y) = \int_{x_0}^x P(x,y)\,\mathrm{d}x + \int_{y_0}^y Q(x_0,y)\,\mathrm{d}y
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
 - [[一阶线性微分方程-FirstOrderLinearODE|一阶线性微分方程]]
 
 ---

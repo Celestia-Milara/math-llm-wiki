@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 周期函数的傅里叶级数展开、正弦级数与余弦级数展开、奇延拓与偶延拓的计算方法。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -47,7 +48,7 @@ $$f(x) \sim \frac{a_0}{2} + \sum_{n=1}^{\infty} a_n \cos\frac{n\pi x}{l}, \quad 
 
 ## 相关页面
 
-- [[FourierSeries|傅里叶级数]]
+- [[03_Wiki/Concepts/傅里叶级数-FourierSeries|傅里叶级数]]
 - [[狄利克雷收敛定理-DirichletConvergenceTheorem|狄利克雷收敛定理]]
 
 ---

@@ -3,9 +3,9 @@
 标签: [数学, 第5讲, 第13讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 函数在整个定义域上的全局最大值和最小值，是整体概念，区别于极值。
 来源: 01_Raw/Archive/Lectures/05_第5讲_一元函数微分学的应用(一).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,5 +46,5 @@ $$
 **来源**：`01_Raw/05_第5讲_一元函数微分学的应用(一).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE any(filter(this.标签, (t) => startswith(t, "第")), (chapter) => contains(标签, chapter)) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE any(filter(this.标签, (t) => startswith(t, "第")), (chapter) => contains(标签, chapter)) SORT file.name ASC
 ```

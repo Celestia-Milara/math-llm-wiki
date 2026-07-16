@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 利用逐项求导、逐项积分及重要展开式将幂级数化为封闭形式，包括代数法、微分方程法。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -54,9 +55,9 @@ $$\begin{aligned}
 
 ## 相关页面
 
-- [[PowerSeries|幂级数]]
-- [[PowerSeriesConvergence|幂级数收敛域求法]]
-- [[FunctionExpansionIntoPowerSeries|函数展开成幂级数]]
+- [[03_Wiki/Concepts/幂级数-PowerSeries|幂级数]]
+- [[03_Wiki/Methods/幂级数收敛域求法-PowerSeriesConvergence|幂级数收敛域求法]]
+- [[03_Wiki/Methods/函数展开成幂级数-FunctionExpansionIntoPowerSeries|函数展开成幂级数]]
 
 ---
 

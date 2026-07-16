@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 综合运用导数工具分析函数的单调性、极值、凹凸性、拐点、渐近线等性态并作出图像的系统方法。
 来源: 01_Raw/Archive/Lectures/05_第5讲_一元函数微分学的应用(一).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -51,5 +52,5 @@
 **来源**：`01_Raw/05_第5讲_一元函数微分学的应用(一).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

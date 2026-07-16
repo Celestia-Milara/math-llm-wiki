@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 通过比值/根值判别法求收敛半径，再单独讨论端点处的敛散性确定收敛域。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -47,9 +48,9 @@ $$\lim_{n \to \infty} \frac{|u_{n+1}(x)|}{|u_n(x)|} < 1 \quad \Rightarrow \quad 
 
 ## 相关页面
 
-- [[PowerSeries|幂级数]]
+- [[03_Wiki/Concepts/幂级数-PowerSeries|幂级数]]
 - [[阿贝尔定理-AbelsTheorem|阿贝尔定理]]
-- [[PowerSeriesSumFunction|幂级数求和函数]]
+- [[03_Wiki/Methods/幂级数求和函数-PowerSeriesSumFunction|幂级数求和函数]]
 
 ---
 

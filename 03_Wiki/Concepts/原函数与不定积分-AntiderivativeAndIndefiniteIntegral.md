@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 原函数是导数的逆运算概念，不定积分表示全体原函数。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -39,7 +39,7 @@ $$\int f(x)\,\mathrm{d}x = F(x) + C$$
 ```dataview
 TABLE 
   file.ctime as "创建时间",
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki"
 WHERE contains(file.name, "原函数") OR contains(file.name, "不定积分")
 SORT file.ctime DESC

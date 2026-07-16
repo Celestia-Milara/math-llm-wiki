@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 通过变量替换将复杂被积函数化简为可积形式，包括三角代换、根式代换、倒代换等。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -53,7 +54,7 @@ $$\int f(x)\,\mathrm{d}x \xlongequal{x=g(u)} \int f[g(u)]\,\mathrm{d}[g(u)] = \i
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   摘要 as "摘要"
 FROM "03_Wiki/Methods"
 WHERE contains(标签, this.标签[1])

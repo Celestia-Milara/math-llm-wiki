@@ -3,9 +3,9 @@
 标签: [数学, 第7讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 通过已知变化率求解未知变化率的链式法则应用，涉及参变量之间通过导数相互关联。
 来源: 01_Raw/Archive/Lectures/07_第7讲_一元函数微分学的应用(三).md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -40,5 +40,5 @@ $$
 **来源**：`01_Raw/07_第7讲_一元函数微分学的应用(三).md`
 
 ```dataview
-TABLE 掌握状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
+TABLE 可信状态, 类型 FROM "03_Wiki" WHERE contains(标签, this.标签[1]) SORT file.name ASC
 ```

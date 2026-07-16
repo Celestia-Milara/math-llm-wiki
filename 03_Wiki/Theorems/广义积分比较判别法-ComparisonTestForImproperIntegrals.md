@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 通过比较函数的大小或极限来判别广义积分的敛散性。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -74,7 +74,7 @@ $$\int_1^{+\infty} \frac{\ln x}{x^p}\,\mathrm{d}x
 
 ```dataview
 TABLE 
-  掌握状态 as "状态",
+  可信状态 as "状态",
   source as "来源"
 FROM "03_Wiki/Concepts"
 WHERE contains(标签, "广义积分")

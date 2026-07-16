@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 给出傅里叶级数收敛的充分条件，并确定和函数在连续点与间断点的取值。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -35,8 +35,8 @@ f(x), & x \text{为连续点} \\[6pt]
 
 ## 相关页面
 
-- [[FourierSeries|傅里叶级数]]
-- [[FourierSeriesExpansion|傅里叶级数展开方法]]
+- [[03_Wiki/Concepts/傅里叶级数-FourierSeries|傅里叶级数]]
+- [[03_Wiki/Methods/傅里叶级数展开方法-FourierSeriesExpansion|傅里叶级数展开方法]]
 
 ---
 

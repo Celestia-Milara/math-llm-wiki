@@ -3,9 +3,9 @@
 标签: [数学, 第15讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 离散变量函数的差分运算及以一阶常系数线性差分方程为代表的求解理论。
 来源: 01_Raw/Archive/Lectures/15_第15讲_微分方程.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -45,13 +45,13 @@ $$y_t = y_C(t) + y_t^*$$
 
 ## 相关页面
 
-- [[OrdinaryDifferentialEquation|常微分方程]]
-- [[DifferenceEquationSolution|差分方程求解方法]]
+- [[03_Wiki/Concepts/常微分方程-OrdinaryDifferentialEquation|常微分方程]]
+- [[03_Wiki/Methods/差分方程求解方法-DifferenceEquationSolution|差分方程求解方法]]
 
 ---
 
 ```dataview
-TABLE title, 掌握状态, 摘要
+TABLE title, 可信状态, 摘要
 FROM "03_Wiki"
 WHERE contains(标签, "差分") OR contains(标签, this.标签[1])
 SORT 类型 ASC

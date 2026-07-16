@@ -3,9 +3,9 @@
 标签: [数学, 第16讲, 定理]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 幂级数在收敛点内绝对收敛、在发散点外发散，奠定了收敛半径概念的理论基础。
 来源: 01_Raw/Archive/Lectures/16_第16讲_无穷级数.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -31,8 +31,8 @@
 
 ## 相关页面
 
-- [[PowerSeries|幂级数]]
-- [[PowerSeriesConvergence|幂级数收敛域求法]]
+- [[03_Wiki/Concepts/幂级数-PowerSeries|幂级数]]
+- [[03_Wiki/Methods/幂级数收敛域求法-PowerSeriesConvergence|幂级数收敛域求法]]
 
 ---
 

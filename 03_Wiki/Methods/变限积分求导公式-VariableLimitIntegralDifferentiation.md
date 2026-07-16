@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 对积分上限和下限都是函数的变限积分求导的方法。
 来源: 01_Raw/Archive/Lectures/09_第9讲_一元函数积分学的计算.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -35,7 +36,7 @@ $$F'(x) = \frac{\mathrm{d}}{\mathrm{d}x}\left[\int_{\varphi_1(x)}^{\varphi_2(x)}
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Concepts"
 WHERE contains(标签, "变限积分")
 SORT file.name ASC

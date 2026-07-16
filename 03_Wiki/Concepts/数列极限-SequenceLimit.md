@@ -3,13 +3,13 @@
 标签: [数学, 第2讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 描述正整数下标 n → ∞ 时数列通项 xₙ 的趋近行为，是函数极限的离散版本。
 来源: 01_Raw/Archive/Lectures/02_第2讲_数列极限.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
-> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 掌握状态 改为 practice_verified。
+> 此内容由 AI 初次编译，尚未经人工核对。核对后请移除此块或将 可信状态 改为 S2 已核查。
 
 ## 定义
 
@@ -49,7 +49,7 @@ $$\sum_{k=1}^n \frac{1}{k(k+1)} = \frac{n}{n+1}$$
 ## 相关条目
 
 ```dataview
-TABLE 掌握状态, 类型
+TABLE 可信状态, 类型
 FROM "03_Wiki"
 WHERE contains(标签, this.标签[1]) AND 类型 != "permanent"
 SORT file.name ASC

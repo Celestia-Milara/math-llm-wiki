@@ -5,6 +5,7 @@
 类型: 永久笔记
 摘要: 将 n 项和的极限转化为定积分计算，利用黎曼和的定义。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -46,7 +47,7 @@ $$\begin{aligned}
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki/Concepts"
 WHERE contains(标签, "定积分")
 SORT file.name ASC

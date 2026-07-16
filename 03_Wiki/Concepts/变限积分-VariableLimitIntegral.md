@@ -3,9 +3,9 @@
 标签: [数学, 第8讲, 第9讲, 概念]
 创建日期: 2026-05-03
 类型: 永久笔记
-掌握状态: 待编译
 摘要: 由定积分定义的函数，积分上限或下限为变量。
 来源: 01_Raw/Archive/Lectures/08_第8讲_一元函数积分学的概念与性质.md
+可信状态: S3 待核查
 ---
 
 > [!WARNING] AI Generated
@@ -37,7 +37,7 @@ $$F(x) = \int_a^x f(t)\,\mathrm{d}t \quad (a \le x \le b)$$
 
 ```dataview
 TABLE 
-  掌握状态 as "状态"
+  可信状态 as "状态"
 FROM "03_Wiki"
 WHERE contains(标签, "变限积分")
 SORT file.ctime ASC
