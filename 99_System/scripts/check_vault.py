@@ -10,7 +10,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
-WIKILINK = re.compile(r"(?<!!)\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]*)?\]\]")
+WIKILINK = re.compile(r"(?<!!)\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\\?\|[^\]]*)?\]\]")
+MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 FRONTMATTER = re.compile(r"\A---\r?\n(.*?)\r?\n---", re.S)
 
 
@@ -67,6 +68,21 @@ def check_links(errors: list[str]) -> None:
             target = match.group(1)
             if not resolve(target, paths, stems):
                 errors.append(f"broken active wikilink: {path.relative_to(ROOT)} -> {target}")
+        for match in MARKDOWN_LINK.finditer(text):
+            target = match.group(1).strip().strip("<>")
+            if target.startswith(("#", "http://", "https://", "obsidian://", "mailto:")):
+                continue
+            destination = (path.parent / target).resolve()
+            if not destination.is_file():
+                errors.append(f"broken active Markdown link: {path.relative_to(ROOT)} -> {target}")
+        for number, line in enumerate(text.splitlines(), start=1):
+            if not line.lstrip().startswith("|"):
+                continue
+            for link in re.findall(r"\[\[(.*?)\]\]", line):
+                if "|" in link and "\\|" not in link:
+                    errors.append(
+                        f"unescaped alias delimiter in table link: {path.relative_to(ROOT)}:{number}"
+                    )
 
 
 def check_wiki_schema(errors: list[str]) -> None:
@@ -163,7 +179,7 @@ def main() -> int:
         for item in errors:
             print(f"- {item}")
         return 1
-    print("PASS: active links, Wiki schema, mapping ranges, and historical relations are valid.")
+    print("PASS: active links, table link rendering, Wiki schema, mapping ranges, and historical relations are valid.")
     print("Read-only mode: no files were modified.")
     return 0
 
